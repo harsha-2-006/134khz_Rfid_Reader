@@ -23,13 +23,13 @@ The ESP32 reads and processes the decoded data.
 ## 📷 Project Images
 
 ### PCB Layout
-![PCB](images/pcb.png)
+![PCB](images/Screenshot%202026-03-31%20210803.png)
 
 ### 3D View
-![3D](images/3d.png)
+![3D](images/Screenshot%202026-03-31%20210818.png)
 
 ### Schematic
-![Schematic](images/schematic.png)
+![Schematic](images/Screenshot%202026-03-31%20210833.png)
 
 ---
 
