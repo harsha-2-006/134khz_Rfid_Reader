@@ -1,0 +1,55 @@
+(kicad_symbol_lib
+  (version 20231120)
+  (generator kicad_symbol_editor)
+  (symbol "antenna_134.2kHz_2"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at 6.35 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "560uH"
+      (at 6.35 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "antenna_134.2kHz:antenna_134.2kHz_2"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "antenna_134.2kHz_2_0_1"
+      (circle (center 0 0) (radius 5.08)
+        (stroke (width 0.3) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 1.27) (xy 7.62 1.27))
+        (stroke (width 0.2) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -1.27) (xy 7.62 -1.27))
+        (stroke (width 0.2) (type default))
+        (fill (type none))
+      )
+    )
+    (symbol "antenna_134.2kHz_2_1_1"
+      (pin passive line
+        (at 8.89 1.27 180)
+        (length 1.27)
+        (name "ANT_1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 8.89 -1.27 180)
+        (length 1.27)
+        (name "ANT_2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
