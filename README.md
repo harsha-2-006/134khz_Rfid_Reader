@@ -1,28 +1,78 @@
-# 134.2 kHz RFID Reader
+# 134.2 kHz RFID Reader (EM4095 + ESP32)
 
-This project is a low-frequency RFID reader operating at 134.2 kHz, designed using the EM4095 IC and ESP32.
+> Designed and built as a hands-on hardware project to understand low-frequency RFID systems.
+
+---
 
 ## 🔧 Features
-- Custom PCB with integrated coil antenna
 - Operates at 134.2 kHz (LF RFID)
-- EM4095 analog front-end
-- ESP32 for processing and communication
+- Custom-designed PCB with integrated coil antenna
+- EM4095 RFID analog front-end
+- ESP32 for data processing and communication
 
-## 🧠 Working
-The coil antenna generates a magnetic field at 134.2 kHz. When an RFID tag enters the field, it modulates the signal, which is detected by the EM4095. The ESP32 decodes the received data.
+---
 
-## 🛠️ Hardware
-- EM4095 RFID IC
-- ESP32
-- Custom designed coil antenna
+## 🧠 Working Principle
+The coil antenna generates a magnetic field at 134.2 kHz.  
+When an RFID tag enters the field, it modulates the signal.  
+This modulated signal is detected and demodulated by the EM4095.  
+The ESP32 reads and processes the decoded data.
 
-## 📷 Images
-(Add your PCB / 3D / real images here)
+---
 
-## 💡 Applications
-- Animal tracking
-- Access control
-- Identification systems
+## 📷 Project Images
+
+### PCB Layout
+![PCB](images/pcb.png)
+
+### 3D View
+![3D](images/3d.png)
+
+### Schematic
+![Schematic](images/schematic.png)
+
+---
+
+## 🛠️ Hardware Used
+- EM4095 RFID IC  
+- ESP32  
+- Custom PCB coil antenna  
+
+---
+
+## 📂 Project Structure
+
+- `hardware/` → PCB design and schematic files  
+- `software/` → ESP32 code  
+- `images/` → project images  
+
+---
+
+## 📁 Files Included
+- PCB layout files  
+- Schematic design  
+- ESP32 firmware  
+
+---
+
+## ⚠️ Improvements / Future Work
+- Improve coil tuning for better resonance  
+- Enhance signal filtering for stability  
+- Increase read range and reliability  
+
+---
+
+## 🚀 Applications
+- Animal tracking systems  
+- Access control  
+- Identification systems  
+
+---
 
 ## 📌 Status
 Project completed and tested.
+
+---
+
+## 🤝 Contributions
+This is a personal learning project. Suggestions and improvements are welcome.
