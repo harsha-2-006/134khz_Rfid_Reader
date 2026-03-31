@@ -1,0 +1,17 @@
+Name,Reference,Qty,Value,Footprint,Datasheet,Buying Links
+SMD Capacitor,C1,1,100 nF,Capacitor_SMD:C_0805_2012Metric,885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805,"Online in Robu.in  , Buy 100nF 50V Ceramic Capacitor (MLCC) - SMD 0805 - KTRON India , https://www.sunrom.com/p/100nf-104-0805-2012-metric-50v-x7r-mlcc"
+SMD Capacitor,C2,1,1 nF,Capacitor_SMD:C_0805_2012Metric,885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805,1nF 102 0805 (2012 metric) 50V X7R MLCC SMD [4035] : Sunrom Electronics
+SMD Capacitor,C3,1,470 nF,Capacitor_SMD:C_0805_2012Metric,885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805,470nF 474 0805 (2012 metric) 50V X7R MLCC SMD [3944] : Sunrom Electronics
+SMD Capacitor,C4,1,100 pF,Capacitor_SMD:C_0805_2012Metric,885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805,100pF 101 0805 (2012 metric) 50V X7R MLCC SMD [4479] : Sunrom Electronics
+SMD Capacitor,"C5,C7",2,10 nF,Capacitor_SMD:C_0805_2012Metric,885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805,10nF 103 0805 (2012 metric) 50V X7R MLCC SMD [4034] : Sunrom Electronics
+SMD Capacitor,C6,1,2.5 nF,Capacitor_SMD:C_0805_2012Metric,885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805,08055C242KAT2A KYOCERA AVX | Mouser India
+SMD LED,D1,1,LED,LED_SMD:LED_1206_3216Metric,Microsoft Word - 170_SLOAN_01C_03.12_SMD1206.doc,Buy 1206 Surface mount LED White Online at Best Price | Robu.in
+IC,IC1,1,EM4095,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,4095 Data Sheet,"EM4095HMSO16B+ EM Microelectronic | RF and Wireless | DigiKey
+https://inkocean.in/products/em4095-em4095hms016a-sop16-emc?srsltid=AfmBOorOSs4DrSeDIcBxNdanfqawYjgKQhpS-1G4jR6s_B2c5BYtnifF"
+6 Pin Connector,J1,1,Conn_01x06,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,~,Buy Header Pins 40x1 - 2.54mm Pitch - Brass - KTRON India
+SMD Resistor,R1,1,33 kΩ,Resistor_SMD:R_0805_2012Metric,0805 datasheet(1/6 Pages) MACOM | SMD High Power Precision Resistors,33K 1% 0805 [4321] : Sunrom Electronics
+SMD Resistor,R2,1,1kΩ,Resistor_SMD:R_1206_3216Metric,https://www.vishay.com/docs/20035/dcrcwe3.pdf,Buy RT1206FRE071KL Resistors Online in India | Robu.in
+Voltage Regulator,U2,1,AMS1117-5.0,Package_TO_SOT_SMD:SOT-223-3_TabPin2,AMS1117-3.3,"https://www.sunrom.com/p/1117-5v-1a-sot223-low-drop-linear-voltage-regulator?utm_source=chatgpt.com
+https://kitsguru.com/products/ams1117-5v-voltage-regulator-ic-smd-sot-223-package?variant=47171222241532&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorqmcEFiQxm-8AlCkNfKVmL5Sjl8wfF4-F-0TBRfA92PUpajMMSXkg
+https://www.fabtolab.com/ams1117-5-cost-effective-low-dropout-ldo-voltage-regulator-current-1-amp-maximum-input-15v?utm_source=chatgpt.com
+https://robu.in/product/ams1117-5-0v-1a-sot-223-voltage-regulator-ic-pack-of-5-ics/?utm_source=chatgpt.com"
