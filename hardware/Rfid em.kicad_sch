@@ -1310,7 +1310,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 17.78 -2.54 180)
 					(length 2.54)
 					(name "AGND"
@@ -2207,12 +2207,6 @@
 		(uuid "245569d9-d01e-4a47-b491-02250005d8fc")
 	)
 	(junction
-		(at 109.22 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ec9a4fd-20ea-44a7-8fed-4ec527cb25e4")
-	)
-	(junction
 		(at 121.92 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2225,22 +2219,10 @@
 		(uuid "31d7a2ef-2a16-4f9b-81ec-2a47f4b76383")
 	)
 	(junction
-		(at 162.56 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d2628ba-ef9b-448d-8b7c-a788c898cc39")
-	)
-	(junction
 		(at 119.38 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bd717d1-c923-40cf-8735-b238b5fc7e07")
-	)
-	(junction
-		(at 115.57 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64a5cfcd-0c9a-4f1c-b6bc-9c97d694df8f")
 	)
 	(junction
 		(at 138.43 115.57)
@@ -2259,12 +2241,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8017cce2-a621-4d83-8fa2-1eb527673644")
-	)
-	(junction
-		(at 181.61 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86317e48-a969-41da-bbd0-d2bf502e3b59")
 	)
 	(junction
 		(at 120.65 115.57)
@@ -2297,6 +2273,12 @@
 		(uuid "abb1ead7-74d3-4f2a-9289-d3f2dfc90391")
 	)
 	(junction
+		(at 168.91 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6a57ef0-844b-4dab-aa89-d51b333fa134")
+	)
+	(junction
 		(at 130.81 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2309,22 +2291,20 @@
 		(uuid "db9959d0-5432-40bf-874e-3e0af40df308")
 	)
 	(junction
-		(at 118.11 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcac9d21-8eb2-48b8-8a31-a72f13be949f")
-	)
-	(junction
-		(at 161.29 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7a34759-a104-41b7-8002-f625517aed7b")
-	)
-	(junction
 		(at 201.93 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8841000-336f-48e1-91f5-8a35cd5239f4")
+	)
+	(wire
+		(pts
+			(xy 162.56 80.01) (xy 168.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f37bc1-3bca-4b04-b96e-775cf2d49c83")
 	)
 	(wire
 		(pts
@@ -2348,16 +2328,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 88.9) (xy 118.11 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f69a26-3ba4-4076-a94b-184a60ff12d2")
-	)
-	(wire
-		(pts
 			(xy 121.92 81.28) (xy 121.92 64.77)
 		)
 		(stroke
@@ -2365,26 +2335,6 @@
 			(type default)
 		)
 		(uuid "14a47818-c7dc-4b12-95d9-3227ba4a2fb9")
-	)
-	(wire
-		(pts
-			(xy 118.11 115.57) (xy 120.65 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a77eb9-52d1-4ed6-a318-b9d3fa0047ad")
-	)
-	(wire
-		(pts
-			(xy 162.56 78.74) (xy 162.56 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b491db6-4c3b-4bc5-b4f0-be239f4132ce")
 	)
 	(wire
 		(pts
@@ -2398,33 +2348,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 78.74) (xy 161.29 77.47)
+			(xy 161.29 77.47) (xy 161.29 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20e43559-65d7-4919-b56b-148d591ce9e9")
-	)
-	(wire
-		(pts
-			(xy 115.57 71.12) (xy 115.57 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "250171c0-01a0-4a40-84fa-3c7a1e683279")
-	)
-	(wire
-		(pts
-			(xy 149.86 71.12) (xy 158.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29581391-7fd9-4873-837b-1cca59d54632")
 	)
 	(wire
 		(pts
@@ -2468,7 +2398,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 115.57) (xy 109.22 115.57)
+			(xy 104.14 115.57) (xy 120.65 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2478,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 93.98) (xy 190.5 93.98)
+			(xy 179.07 93.98) (xy 190.5 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2558,13 +2488,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 109.22 115.57)
+			(xy 157.48 93.98) (xy 166.37 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44c85a11-e137-4f00-89a6-fced252340ec")
+		(uuid "45bcc256-5e4e-4f25-b9b1-b12e9ff9ab73")
 	)
 	(wire
 		(pts
@@ -2628,26 +2558,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 158.75 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52af752b-dc25-4083-b257-1cc53b91a683")
-	)
-	(wire
-		(pts
-			(xy 161.29 86.36) (xy 161.29 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54649020-ea74-429e-9cd8-c9931af7e4d9")
-	)
-	(wire
-		(pts
 			(xy 198.12 78.74) (xy 198.12 85.09)
 		)
 		(stroke
@@ -2688,23 +2598,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 91.44) (xy 160.02 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66281228-2d90-4646-9363-d9dc98a29fb9")
-	)
-	(wire
-		(pts
-			(xy 115.57 93.98) (xy 109.22 93.98)
+			(xy 109.22 93.98) (xy 119.38 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "692ab024-c764-47c5-ba1b-d5375015c69b")
+	)
+	(wire
+		(pts
+			(xy 180.34 77.47) (xy 194.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8dff8d-056f-450d-ae04-3f5d16ec7d32")
 	)
 	(wire
 		(pts
@@ -2768,13 +2678,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 80.01) (xy 168.91 80.01)
+			(xy 160.02 91.44) (xy 160.02 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b81f1c7-07e7-40f7-87c2-53ee44d55c4f")
+		(uuid "78e99f46-8c0c-4504-bd36-2609c87e72ea")
 	)
 	(wire
 		(pts
@@ -2825,16 +2735,6 @@
 			(type default)
 		)
 		(uuid "8bb1edc2-b3d0-4ec0-b3a1-cb9474c82fa5")
-	)
-	(wire
-		(pts
-			(xy 144.78 71.12) (xy 115.57 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d2b0a87-cf99-4b79-992f-b0cd79440352")
 	)
 	(wire
 		(pts
@@ -2938,6 +2838,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 60.96) (xy 168.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fbf732-8311-4e2b-84f4-484473d0a199")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 160.02 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b192593b-18e7-44f8-a405-aceca2dd370e")
+	)
+	(wire
+		(pts
 			(xy 201.93 105.41) (xy 201.93 115.57)
 		)
 		(stroke
@@ -2948,56 +2868,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 77.47) (xy 194.31 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b23d47c4-15e2-454b-82ff-980ecc435db0")
-	)
-	(wire
-		(pts
-			(xy 165.1 80.01) (xy 165.1 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b309a4ad-ef68-45f2-90a7-141595ef4360")
-	)
-	(wire
-		(pts
-			(xy 158.75 71.12) (xy 158.75 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b36c948f-7d72-438d-b2df-9f2e9eee746d")
-	)
-	(wire
-		(pts
-			(xy 181.61 86.36) (xy 181.61 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b60eede5-65c6-49d1-8033-c0dd9bcaa379")
-	)
-	(wire
-		(pts
-			(xy 109.22 115.57) (xy 118.11 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8757a99-bc29-4f08-8724-3e38097ba614")
-	)
-	(wire
-		(pts
 			(xy 194.31 77.47) (xy 194.31 63.5)
 		)
 		(stroke
@@ -3005,16 +2875,6 @@
 			(type default)
 		)
 		(uuid "b9f8584b-c69a-4ffa-b7f8-4abf26646fb2")
-	)
-	(wire
-		(pts
-			(xy 119.38 93.98) (xy 115.57 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc559fcb-a50a-488a-9c6f-acc0b85047da")
 	)
 	(wire
 		(pts
@@ -3058,13 +2918,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 88.9) (xy 165.1 88.9)
+			(xy 161.29 77.47) (xy 175.26 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1e45ead-05dc-4d51-a4e2-5369f5ff1d63")
+		(uuid "d245d89e-f335-406f-a7e1-8ce9e8ff4932")
 	)
 	(wire
 		(pts
@@ -3145,16 +3005,6 @@
 			(type default)
 		)
 		(uuid "df8b32a5-66a0-47ba-bb0a-d5598ba8b7bc")
-	)
-	(wire
-		(pts
-			(xy 162.56 78.74) (xy 161.29 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0cbbe52-dd8a-4ab2-a89b-c248796f1d30")
 	)
 	(wire
 		(pts
@@ -3256,16 +3106,6 @@
 		)
 		(uuid "f73ad356-5b79-4f3e-b4f4-cfc6057d1c8b")
 	)
-	(label "DEMOD_OUT"
-		(at 120.65 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "03b2e4cb-5d58-467b-b9c6-e5fc0db2ed36")
-	)
 	(label "MOD"
 		(at 184.15 91.44 0)
 		(effects
@@ -3287,7 +3127,7 @@
 		(uuid "1754b0f6-c66c-418d-9dcc-30b090bff823")
 	)
 	(label "MOD"
-		(at 118.11 86.36 0)
+		(at 118.11 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3295,6 +3135,16 @@
 			(justify left bottom)
 		)
 		(uuid "1f4418f6-c9f2-47a0-97f0-aa1227c1ae9e")
+	)
+	(label "ANT_TAP"
+		(at 109.22 101.6 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "216ad66a-bc27-4d22-9a86-e83c1402d7f6")
 	)
 	(label "SHD"
 		(at 118.11 83.82 0)
@@ -3326,8 +3176,28 @@
 		)
 		(uuid "5e4f34aa-8a0a-48dd-9e34-b946008c7f5d")
 	)
+	(label "ANT_TAP"
+		(at 168.91 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccd36d60-51ec-44d1-9b2e-5d664982cf84")
+	)
 	(label "DEMOD_OUT"
-		(at 182.88 93.98 0)
+		(at 166.37 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfd4e0cb-9b09-43f2-bdd3-ca46ba74aa72")
+	)
+	(label "DEMOD_OUT"
+		(at 179.07 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3409,6 +3279,83 @@
 			(project "Rfid em"
 				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "002b75f0-52bf-41e1-9865-9144a5f6a293")
+		(property "Reference" "#PWR06"
+			(at 181.61 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d5c1d46-b6f3-49ea-93ff-1911d09e9945")
+		)
+		(instances
+			(project "Rfid em"
+				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3537,7 +3484,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM2195C1H103JA01D"
 			(at 120.65 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3548,7 +3495,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "10nF C0G C_DV2, lower capacitor of the DEMOD_IN divider to GND (EM4095 datasheet Fig. 8)"
 			(at 120.65 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3559,7 +3506,29 @@
 				)
 			)
 		)
-		(property "Buying Links" "10nF 103 0805 (2012 metric) 50V X7R MLCC SMD [4034] : Sunrom Electronics"
+		(property "Buying Links" "https://www.digikey.com/en/products/detail/murata-electronics/GRM2195C1H103JA01D/587501"
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM2195C1H103JA01D"
 			(at 120.65 105.41 0)
 			(hide yes)
 			(show_name yes)
@@ -3730,7 +3699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 nF"
+		(property "Value" "6.8 nF"
 			(at 177.546 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3752,7 +3721,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 186.69 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3763,7 +3732,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "6.8nF 10% X7R C_DC2, EM4095 receive filter capacitor on DC2 (pin 16) per datasheet"
 			(at 186.69 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3774,7 +3743,29 @@
 				)
 			)
 		)
-		(property "Buying Links" "10nF 103 0805 (2012 metric) 50V X7R MLCC SMD [4034] : Sunrom Electronics"
+		(property "Buying Links" ""
+			(at 186.69 101.6 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 186.69 101.6 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0805C682K5RACTU"
 			(at 186.69 101.6 0)
 			(hide yes)
 			(show_name yes)
@@ -4153,13 +4144,14 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 138.43 110.49 0)
+			(at 140.335 113.665 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4219,25 +4211,25 @@
 		(dnp no)
 		(uuid "3b86ffc0-8eae-43ac-a726-bd1e9d42b9f2")
 		(property "Reference" "C1"
-			(at 175.768 86.106 0)
+			(at 172.085 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "22 uF"
-			(at 176.784 89.154 0)
+			(at 172.085 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
@@ -4323,6 +4315,131 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
+		(at 160.02 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4355944a-9912-4f4c-b338-8ae235e79d89")
+		(property "Reference" "C11"
+			(at 153.162 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150 nF"
+			(at 150.876 108.712 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 160.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 160.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "150nF X7R C_AGND, filters the EM4095 internal AGND reference (pin 11), datasheet range 100-220nF"
+			(at 160.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buying Links" ""
+			(at 160.02 107.95 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 160.02 107.95 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0805C154K5RACTU"
+			(at 160.02 107.95 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Capacitor"
+			(at 160.02 107.95 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90754784-e5a0-4d56-bb4c-de459dce4185")
+		)
+		(pin "2"
+			(uuid "c1364e23-3862-4ae8-b096-5e1e1f729e46")
+		)
+		(instances
+			(project "Rfid em"
+				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
 		(at 104.14 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -4343,7 +4460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 nF"
+		(property "Value" "10 nF"
 			(at 106.68 90.2969 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4376,7 +4493,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "10nF 10% X7R C_FCAP, EM4095 PLL loop filter capacitor on FCAP (pin 15) per datasheet"
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4387,7 +4504,29 @@
 				)
 			)
 		)
-		(property "Buying Links" "1nF 102 0805 (2012 metric) 50V X7R MLCC SMD [4035] : Sunrom Electronics"
+		(property "Buying Links" ""
+			(at 104.14 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 104.14 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0805C103K5RACTU"
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name yes)
@@ -4524,7 +4663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 pF"
+		(property "Value" "1 nF"
 			(at 112.014 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4546,7 +4685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM2195C1H102JA01D"
 			(at 109.22 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4557,7 +4696,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "1nF C0G C_DV1, upper capacitor of the DEMOD_IN divider from the antenna tap (EM4095 datasheet Fig. 8)"
 			(at 109.22 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4568,7 +4707,29 @@
 				)
 			)
 		)
-		(property "Buying Links" "100pF 101 0805 (2012 metric) 50V X7R MLCC SMD [4479] : Sunrom Electronics"
+		(property "Buying Links" ""
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM2195C1H102JA01D"
 			(at 109.22 99.06 0)
 			(hide yes)
 			(show_name yes)
@@ -4649,7 +4810,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "4095 Data Sheet"
+		(property "Datasheet" "https://www.emmicroelectronic.com/sites/default/files/products/datasheets/em4095_ds.pdf"
 			(at 139.7 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4660,7 +4821,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "EM4095 125kHz RFID read/write analog front end, SO16"
 			(at 139.7 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4822,6 +4983,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "EM Microelectronic"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EM4095HMSO16B"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Name" "IC"
 			(at 139.7 88.9 0)
 			(hide yes)
@@ -4933,7 +5116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "Microsoft Word - 170_SLOAN_01C_03.12_SMD1206.doc"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/158301250.pdf"
 			(at 125.73 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4944,7 +5127,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "White 1206 power indicator LED (WL-SWTP, 3V 20mA)"
 			(at 125.73 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4966,7 +5149,29 @@
 				)
 			)
 		)
-		(property "Buying Links" "Buy 1206 Surface mount LED White Online at Best Price | Robu.in"
+		(property "Buying Links" ""
+			(at 125.73 119.38 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 125.73 119.38 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "158301250"
 			(at 125.73 119.38 0)
 			(hide yes)
 			(show_name yes)
@@ -5015,7 +5220,7 @@
 		(dnp no)
 		(uuid "792e0c03-1858-4be0-89bc-2cd3cae55447")
 		(property "Reference" "C6"
-			(at 155.702 81.026 0)
+			(at 164.465 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5025,8 +5230,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.5 nF"
-			(at 153.416 83.312 0)
+		(property "Value" "27 nF"
+			(at 164.465 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5047,7 +5252,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM2165C1H273JA01D"
 			(at 162.56 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5058,7 +5263,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "27nF C0G resonant capacitor C_RES in series with the coil U1 (EM4095 datasheet Fig. 8). With L(U1) ~49 uH and C4/C7 (0.9 nF) the antenna resonates at ~136 kHz; L is calculated, not measured: measure the coil on the bare PCB and re-tune with C6 = 1/((2*pi*134.2 kHz)^2 * L) - 0.9 nF"
 			(at 162.56 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5069,7 +5274,29 @@
 				)
 			)
 		)
-		(property "Buying Links" "08055C242KAT2A KYOCERA AVX | Mouser India"
+		(property "Buying Links" "https://www.digikey.com/en/products/detail/murata-electronics/GRM2165C1H273JA01D/18683394"
+			(at 162.56 82.55 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 162.56 82.55 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM2165C1H273JA01D"
 			(at 162.56 82.55 0)
 			(hide yes)
 			(show_name yes)
@@ -5316,7 +5543,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "1k 1% 1206 LED D1 current limiting resistor"
 			(at 114.3 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5327,7 +5554,29 @@
 				)
 			)
 		)
-		(property "Buying Links" "Buy RT1206FRE071KL Resistors Online in India | Robu.in"
+		(property "Buying Links" ""
+			(at 114.3 120.65 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 114.3 120.65 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW12061K00FKEA"
 			(at 114.3 120.65 90)
 			(hide yes)
 			(show_name yes)
@@ -5444,7 +5693,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 147.32 71.12 90)
+		(at 177.8 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5455,7 +5704,7 @@
 		(fields_autoplaced yes)
 		(uuid "af477a10-c3fe-4434-86f5-41ed1a3eb799")
 		(property "Reference" "R1"
-			(at 147.32 66.04 90)
+			(at 177.8 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5464,8 +5713,8 @@
 				)
 			)
 		)
-		(property "Value" "33 kΩ"
-			(at 147.32 68.58 90)
+		(property "Value" "22 Ω"
+			(at 177.8 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5474,8 +5723,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 147.32 71.12 0)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 177.8 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5485,8 +5734,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "0805 datasheet(1/6 Pages) MACOM | SMD High Power Precision Resistors"
-			(at 147.32 71.12 0)
+		(property "Datasheet" "~"
+			(at 177.8 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5496,8 +5745,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 147.32 71.12 0)
+		(property "Description" "22R 1W series resistor R_SER, keeps the ANT1/ANT2 peak current below the EM4095 250 mA limit (datasheet Fig. 8); dissipates ~0.45 W"
+			(at 177.8 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5507,8 +5756,30 @@
 				)
 			)
 		)
-		(property "Buying Links" "33K 1% 0805 [4321] : Sunrom Electronics"
-			(at 147.32 71.12 90)
+		(property "Buying Links" "https://www.digikey.com/en/products/detail/yageo/RC2512FK-0722RL/5962214"
+			(at 177.8 77.47 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 177.8 77.47 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC2512FK-0722RL"
+			(at 177.8 77.47 90)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5519,7 +5790,7 @@
 			)
 		)
 		(property "Name" "SMD Resistor"
-			(at 147.32 71.12 90)
+			(at 177.8 77.47 90)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -5938,7 +6209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300611121.pdf"
 			(at 195.58 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5949,7 +6220,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "1x6 2.54mm pin header (WR-PHD): VIN, GND, SHD, MOD, DEMOD_OUT, RDY/CLK to the microcontroller"
 			(at 195.58 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5960,7 +6231,29 @@
 				)
 			)
 		)
-		(property "Buying Links" "Buy Header Pins 40x1 - 2.54mm Pitch - Brass - KTRON India"
+		(property "Buying Links" ""
+			(at 195.58 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 195.58 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300611121"
 			(at 195.58 88.9 0)
 			(hide yes)
 			(show_name yes)
@@ -6032,7 +6325,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560uH"
+		(property "Value" "~49uH"
 			(at 209.55 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6098,7 +6391,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "l=560u"
+		(property "Sim.Params" "l=49u"
 			(at 203.2 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6136,25 +6429,23 @@
 		(dnp no)
 		(uuid "faa47f52-c195-45de-95a1-b85e6532f3e7")
 		(property "Reference" "C3"
-			(at 140.462 106.68 90)
+			(at 139.7 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "470 nF"
-			(at 138.176 108.458 90)
+		(property "Value" "100 nF"
+			(at 139.7 107.315 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -6168,7 +6459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71H104KA01-01.pdf"
 			(at 139.7 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6179,7 +6470,7 @@
 				)
 			)
 		)
-		(property "Description" "capacitor, small US symbol"
+		(property "Description" "100nF 10% X7R C_DEC, EM4095 DC blocking capacitor between CDEC_OUT (pin 9) and CDEC_IN (pin 10) per datasheet"
 			(at 139.7 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6190,7 +6481,29 @@
 				)
 			)
 		)
-		(property "Buying Links" "470nF 474 0805 (2012 metric) 50V X7R MLCC SMD [3944] : Sunrom Electronics"
+		(property "Buying Links" ""
+			(at 139.7 110.49 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 139.7 110.49 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR71H104KA01L"
 			(at 139.7 110.49 90)
 			(hide yes)
 			(show_name yes)
