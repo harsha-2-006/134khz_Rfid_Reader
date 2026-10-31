@@ -50,6 +50,17 @@ The project was developed as a practical hardware learning experience covering:
 ### Schematic
 ![Schematic](images/Screenshot%202026-03-31%20210833.png)
 
+To refresh the images after a design change, run from `hardware/` (needs KiCad ≥ 9, `rsvg-convert` and ImageMagick):
+
+```sh
+kicad-cli pcb export svg --mode-single --fit-page-to-board --exclude-drawing-sheet --layers B.Silkscreen,B.Cu,F.Cu,F.Silkscreen,F.Fab,Edge.Cuts -o "../images/pcb.svg" "Rfid em.kicad_pcb"
+rsvg-convert -w 1600 -b '#001023' "../images/pcb.svg" -o "../images/Screenshot 2026-03-31 210803.png"
+kicad-cli pcb render --side top --quality high --background opaque -w 1600 --height 1000 --zoom 1.2 -o "../images/Screenshot 2026-03-31 210818.png" "Rfid em.kicad_pcb"
+kicad-cli sch export svg --exclude-drawing-sheet -o ../images "Rfid em.kicad_sch"
+rsvg-convert -w 4000 -b white "../images/Rfid em.svg" | magick - -trim +repage -fuzz 2% -trim +repage -bordercolor "#f5f4ef" -border 40 "../images/Screenshot 2026-03-31 210833.png"
+rm "../images/pcb.svg" "../images/Rfid em.svg"
+```
+
 ---
 
 ## Hardware Components
